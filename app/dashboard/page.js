@@ -83,16 +83,16 @@ const Dashboard = ({ params }) => {
               ' placeholder='Enter Your username' onChange={handleChange} />
                 <label htmlFor="profilepic">Profile picture</label>
                 <input value={form.profilepic?form.profilepic:""} name='profilepic' id='profilepic' type="text" className='w-[100%] p-2 rounded-lg bg-slate-800
-              ' placeholder='' onChange={handleChange} />
+              ' placeholder='Enter ProfilePic URL' onChange={handleChange} />
                 <label htmlFor="coverpic">Cover Picture</label>
                 <input value={form.coverpic?form.coverpic:""} name='coverpic' id='coverpic' type="text" className='w-[100%] p-2 rounded-lg bg-slate-800
-              ' placeholder='' onChange={handleChange} />
+              ' placeholder='Enter coverPic URL' onChange={handleChange} />
                 <label htmlFor="razorpayid">RayzorPay Id</label>
         <input type="text" value={form.razorpayid?form.razorpayid:""} onChange={handleChange} name='razorpayid' id='razorpayid'  className='w-[100%] p-2 rounded-lg bg-slate-800 dark:focus:ring-blue-500 dark:focus:border-blue-500
-              ' placeholder='' />
+              ' placeholder='Enter Your razorpayid' />
 <label htmlFor="razorpaysecret">RayzorPay Secret</label>
         <input type="text" value={form.razorpaysecret?form.razorpaysecret:""} onChange={handleChange} name='razorpaysecret' id='razorpaysecret'  className='w-[100%] p-2 rounded-lg bg-slate-800 dark:focus:ring-blue-500 dark:focus:border-blue-500
-              ' placeholder='' />
+              ' placeholder='Enter Your razorpaysecret' />
 
 
                 {/* <label htmlFor="">RayzorPay Id</label>

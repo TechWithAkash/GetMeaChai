@@ -133,7 +133,7 @@ const PaymentPage = ({ username }) => {
                 <div className="payment flex gap-3 w-[80%] mt-10">
                     <div className="supporters w-1/2  bg-slate-900 rounded-lg p-10 text-white">
                         <h2 className='font-bold text-white  text-2xl my-5'>Supporters</h2>
-                        {/* {payments.length === 0 && <li className='text-xl text-red-400'>No payments Yet!!</li>} */}
+                        {payments.length === 0 && <li className='text-xl text-red-400'>No payments Yet!!</li>}
                         <ul className='mx-5'>
                             {payments.map((p, i) => {
                                 return <li className='my-2 flex  gap-2 '>
@@ -163,8 +163,7 @@ const PaymentPage = ({ username }) => {
                             <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" onClick={() => pay(2000)} >20₹</button>
                             <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700    " onClick={() => pay(5000)} >50₹</button>
                             <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" onClick={() => pay(1000)}   > 10₹</button>
-                            <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" onClick={() => pay(2000)}   > 20₹</button>
-                            <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700" onClick={() => pay(3000)}   > 30₹</button>
+                          
 
 
 
